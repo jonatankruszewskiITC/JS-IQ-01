@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --testPathPattern=/Exercises",
+    "test-calculator": "jest --testPathPattern=Exercises/calculator.test.js",
+    "test-findAllDigits": "jest --testPathPattern=Exercises/findAllDigits.test.js",
+    "test-lovesMe": "jest --testPathPattern=Exercises/lovesMe.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.2.2",
+    "jest": "^26.2.2",
+    "js-beautify": "^1.13.0"
+  }
+}
